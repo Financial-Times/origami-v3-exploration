@@ -1,16 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Origami Web Components</title>
+    <link rel="stylesheet" href="o-forms.css">
   </head>
   <body>
-
-    <o-forms>
-      <o-multiselect>
-        <!-- ... -->
-      </o-multiselect>
+    <o-forms label="Fruits">
+      <o-multi-select>
+        <span class="o-multi-select" data-o-component="o-multi-select">
+          <select id="fruits" title="Select fruits" multiple name="fruits">
+            <option value="Apple">Apple</option>
+            <option value="Banana">Banana</option>
+            <option value="Orange">Orange</option>
+            <option value="Pineapple">Pineapple</option>
+            <option value="Strawberry">Strawberry</option>
+          </select>
+        </span>
+      </o-multi-select>
+      <button type="submit">submit</button>
     </o-forms>
 
     <script type="module" src="/main.js"></script>
