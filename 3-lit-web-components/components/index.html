@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + Lit</title>
+    <script type="module" src="./dist/o-lit-wc.mjs"></script>
+  </head>
+  <body>
+    <o-forms label="Fruits">
+      <o-multi-select slot="o-forms-input">
+        <span class="o-multi-select" data-o-component="o-multi-select">
+          <select id="fruits" title="Select fruits" multiple name="fruits">
+            <option value="Apple">Apple</option>
+            <option value="Banana">Banana</option>
+            <option value="Orange">Orange</option>
+            <option value="Pineapple">Pineapple</option>
+            <option value="Strawberry">Strawberry</option>
+          </select>
+        </span>
+      </o-multi-select>
+      <button type="submit">submit</button>
+    </o-forms>
+  </body>
+</html>
