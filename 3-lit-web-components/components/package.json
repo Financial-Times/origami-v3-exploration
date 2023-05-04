@@ -1,0 +1,21 @@
+{
+  "name": "components",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --config vite.config.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lit-labs/react": "^1.1.1",
+    "lit": "^2.6.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "vite": "^4.3.0"
+  }
+}
