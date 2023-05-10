@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WC + preact</title>
+    <script module src="dist/o-preact-wc.umd.cjs"></script>
+    <link rel="stylesheet" href="dist/style.css" />
+  </head>
+  <body>
+    <o-forms label="Fruits">
+      <o-multi-select
+        options-data='[{"label":"apple","selected":false},{"label":"banana","selected":false}]'
+      >
+        <span class="o-multi-select" data-o-component="o-multi-select">
+          <select title="fruits" name="fruits" id="fruits" multiple>
+            <option value="apple">apple</option>
+            <option value="banana">banana</option>
+          </select>
+        </span>
+      </o-multi-select>
+    </o-forms>
+  </body>
+</html>

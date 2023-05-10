@@ -1,0 +1,36 @@
+.o-forms-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6px;
+  position: relative;
+}
+
+label {
+  display: block;
+  margin: 0 0 6px;
+  position: relative;
+}
+
+label:last-of-type {
+  margin-bottom: 0;
+}
+
+.o-forms-title {
+  border-bottom: 1px solid;
+}
+
+.o-forms-title__main {
+  display: block;
+}
+
+.o-forms-input {
+  margin-top: 6px;
+}
+.o-forms-input {
+  border-radius: 0;
+  appearance: none;
+}
+
+.o-forms-input .combobox-text {
+  color: blueviolet;
+}
