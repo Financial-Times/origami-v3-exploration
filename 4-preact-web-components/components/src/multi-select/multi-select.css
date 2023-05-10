@@ -1,0 +1,71 @@
+.selected-options {
+  list-style-type: none;
+  padding: 4px;
+  margin: 0;
+  z-index: 1;
+}
+
+.dropdown-menu {
+  width: 100%;
+  background-color: white;
+  padding: 4px;
+  border: 1px solid gray;
+  left: 0;
+  position: absolute;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  clip-path: polygon(0 0, 0 0);
+  margin: -1px;
+  border: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 2px;
+  height: 2px;
+  white-space: nowrap;
+}
+
+.option {
+  cursor: pointer;
+  padding: 8px 4px;
+  position: relative;
+}
+.option:hover {
+  background-color: gray;
+  color: initial;
+}
+.selected {
+  background-color: gainsboro; /* use oColors here instead */
+  color: initial;
+}
+
+.tick {
+  width: 32px;
+  height: 32px;
+  background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:tick?source=origami-build-service&tint=%2333302E,%2333302E&format=svg);
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  vertical-align: middle;
+}
+
+li {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.selected-options-button {
+  border-style: none;
+  color: black;
+  background-color: bisque;
+  margin-right: 8px;
+  font-size: inherit;
+  padding: 4px;
+  cursor: pointer;
+}
